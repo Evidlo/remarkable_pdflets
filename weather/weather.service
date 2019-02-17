@@ -1,0 +1,4 @@
+[Unit]
+Description=Weather service
+[Service]
+ExecStart=/home/root/.local/share/pdflets/weather.sh

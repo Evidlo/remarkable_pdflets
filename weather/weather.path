@@ -1,0 +1,6 @@
+[Unit] 
+Description=Path unit for monitoring document closing
+[Path]
+PathChanged=/home/root/.local/share/remarkable/xochitl/a6ab69e5-27b4-4606-8c82-1ca591333107.metadata
+[Install]
+WantedBy=multi-user.target

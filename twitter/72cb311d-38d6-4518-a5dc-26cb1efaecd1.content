@@ -1,0 +1,35 @@
+{
+    "extraMetadata": {
+        "LastBrushColor": "Black",
+        "LastBrushThicknessScale": "2",
+        "LastColor": "Black",
+        "LastEraserThicknessScale": "2",
+        "LastPen": "Ballpoint",
+        "LastPenColor": "Black",
+        "LastPenThicknessScale": "2",
+        "LastPencil": "SharpPencil",
+        "LastPencilColor": "Black",
+        "LastPencilThicknessScale": "2",
+        "LastTool": "Ballpoint",
+        "ThicknessScale": "2"
+    },
+    "fileType": "pdf",
+    "fontName": "",
+    "lastOpenedPage": 0,
+    "lineHeight": -1,
+    "margins": 100,
+    "orientation": "portrait",
+    "pageCount": 1,
+    "textScale": 1,
+    "transform": {
+        "m11": 1,
+        "m12": 0,
+        "m13": 0,
+        "m21": 0,
+        "m22": 1,
+        "m23": 0,
+        "m31": 0,
+        "m32": 0,
+        "m33": 1
+    }
+}
