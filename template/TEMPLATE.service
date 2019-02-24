@@ -1,0 +1,8 @@
+[Unit]
+Description=Template service
+
+[Service]
+Type=oneshot
+# ensure service doesn't hang in 'started' state
+TimeoutStartSec=10
+ExecStart=/home/root/.local/share/pdflets/template.sh

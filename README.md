@@ -22,3 +22,7 @@ A new document will appear on your remarkable.  When you close and reopen this d
 - `weather` and `twitter` need internet access
 - I haven't found a way to refresh a document while it's open, which means you have to close and reopen to reload.
 - Weather and Twitter are written in pure bash and busybox tools, which means they are ugly and maybe buggy
+
+# Contributing
+
+See `template/README.md`
