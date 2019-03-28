@@ -65,7 +65,7 @@ stream
   BT
     /F1 ${font_size} Tf
     10 700 Td
-    ${out}
+    (${out}) Tj
     0 ${line_height} Td
     0 ${line_height} Td
     (Updated $(date)) Tj
