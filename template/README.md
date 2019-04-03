@@ -18,4 +18,6 @@ Verify everything has been renamed properly:
 # should return nothing
 grep UUID *
 grep TEMPLATE *
+find . -name "*UUID*"
+find . -name "*TEMPLATE*"
 ```
