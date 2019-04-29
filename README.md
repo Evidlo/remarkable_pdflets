@@ -1,6 +1,6 @@
 # reMarkable PDFlets
 
-A "PDFlet" is a document on the reMarkable which triggers a script and updates the document, similar to a bookmarklet.
+A "PDFlet" is a document on the reMarkable which can update itself each time it is opened.
 
 I use a systemd [path unit](https://www.freedesktop.org/software/systemd/man/systemd.path.html) and a simple shell script to directly build a PDF in order to achieve this.
 
