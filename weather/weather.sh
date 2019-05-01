@@ -21,7 +21,7 @@ out=$(wget -q -O /dev/stdout http://wttr.in 2>&1 |
             s/‘/\`/g; s/’/\`/g;                                            # escape forwardtick
             s/\(.*\)/0 -9 Td (\1) Tj/g                                     # render newlines
             s/→/ /g; s/←/ /g; s/↓/ /g; s/↑/ /g; s/↘/ /g; s/↙/ /g;          # remove special chars
-            s/↗/ /g; s/°/ /g; s/…/ /g; s/↖/ /g;                            # remove special chars
+            s/↗/ /g; s/°/ /g; s/…/ /g; s/↖/ /g; s/‚/,/g;                   # remove special chars
 ')
 
 echo "$out"
