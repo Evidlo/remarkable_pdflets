@@ -7,7 +7,7 @@ uuid=UUID
 data_path=/home/root/.local/share/remarkable/xochitl
 
 # force the page to re-render
-rm $data_path/$uuid.cache/0.png
+rm $data_path/$uuid.cache/*.png
 
 # command output to show on pdf.  include any errors
 out=$(echo hello world 2>&1)

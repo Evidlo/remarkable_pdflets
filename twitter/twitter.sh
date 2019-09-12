@@ -14,7 +14,7 @@ data_path=/home/root/.local/share/remarkable/xochitl
 uuid=72cb311d-38d6-4518-a5dc-26cb1efaecd1
 
 # force the page to re-render
-rm $data_path/$uuid.cache/0.png
+rm $data_path/$uuid.cache/*.png
 
 # strip/replace chars that can't go into the pdf - this is still really buggy
 strip_bad_chars () {

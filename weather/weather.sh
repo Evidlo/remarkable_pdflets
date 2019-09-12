@@ -8,7 +8,7 @@ data_path=/home/root/.local/share/remarkable/xochitl
 uuid=a6ab69e5-27b4-4606-8c82-1ca591333107
 
 # force the page to re-render
-rm $data_path/$uuid.cache/0.png
+rm $data_path/$uuid.cache/*.png
 
 esc=$(printf '\033')
 # we have to split substitions up because busybox sed is buggy
@@ -21,7 +21,7 @@ out=$(wget -q -O /dev/stdout http://wttr.in 2>&1 |
             s/‘/\`/g; s/’/\`/g;                                            # escape forwardtick
             s/\(.*\)/0 -9 Td (\1) Tj/g                                     # render newlines
             s/→/ /g; s/←/ /g; s/↓/ /g; s/↑/ /g; s/↘/ /g; s/↙/ /g;          # remove special chars
-            s/↗/ /g; s/°/ /g; s/…/ /g; s/↖/ /g; s/‚/,/g;                   # remove special chars
+            s/↗/ /g; s/°/ /g; s/…/ /g; s/↖/ /g; s/‚/,/g; s/⚡/ /g;         # remove special chars
 ')
 
 echo "$out"
